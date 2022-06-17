@@ -55,7 +55,7 @@ let createCalculator = (container) => {
             el == '+' || 
             el == '-' 
         ){
-            btn.setAttribute('id', 'operation')
+            btn.setAttribute('id', 'operator')
             btn.setAttribute('class', 'btn')
         }
         else if (
