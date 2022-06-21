@@ -65,11 +65,19 @@
 
 .first-operand {
     color: rgba(255, 255, 255, 0.75);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    padding: 3px 5px 0px 5px;
 }
 
 .second-operand {
     color: rgb(255, 255, 255);
-    font-size: 3.5rem;
+    font-size: 1.5rem;
+    padding: 3px 5px 3px 5px;
+}
+
+.result {
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem; 
+    padding: 0px 5px 3px 5px;
 }
 
