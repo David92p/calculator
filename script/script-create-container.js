@@ -21,12 +21,16 @@ let createCalculator = (container) => {
     container.appendChild(output);
     // div contenitore di input 
     let firstOperand = document.createElement('div');
-    // div contenitore di output (risultato)
+    // div contenitore di input 
     let secondOperand = document.createElement('div');
+    // div contenitore di output (risultato)
+    let result = document.createElement('div');
     firstOperand.setAttribute('class', 'first-operand');
     secondOperand.setAttribute('class', 'second-operand');
+    result.setAttribute('class', 'result');
     output.appendChild(firstOperand);
     output.appendChild(secondOperand);
+    output.appendChild(result);
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //Utiliziamo un ciclo per attribuire le classi e gli id
     btnList.forEach((el, index)=>{
