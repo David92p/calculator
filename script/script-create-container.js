@@ -33,7 +33,7 @@ let createCalculator = (container) => {
     output.appendChild(result);
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //Utiliziamo un ciclo per attribuire le classi e gli id
-    btnList.forEach((el, index)=>{
+    btnList.forEach(el => {
         let btn = document.createElement('button')
         btn.innerHTML = el
         container.appendChild(btn)
@@ -52,6 +52,7 @@ let createCalculator = (container) => {
         ){
             btn.setAttribute('id', 'date-number')
             btn.setAttribute('class', 'btn')
+            btn.setAttribute('onclick', 'valueClick()')
         }
         else if (
             el == '÷' || 
